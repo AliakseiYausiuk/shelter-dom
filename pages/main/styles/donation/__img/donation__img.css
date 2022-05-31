@@ -17,6 +17,11 @@
     margin: 60px 0 100px 131px;
   }
 }
+@media  (max-width: 560px) {
+  .donation__img {
+    margin: 60px 0 100px 80px;
+  }
+}
 
 @media (max-width: 320px) {
   .donation__img {
