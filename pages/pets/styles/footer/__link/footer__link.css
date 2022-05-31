@@ -1,0 +1,11 @@
+.footer__link {
+  text-decoration: none;
+  color: #F1CDB3;
+  cursor: pointer;
+}
+
+@media (max-width: 320px) {
+  .footer__link {
+    font-size: 20px;
+  }
+}

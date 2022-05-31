@@ -1,0 +1,22 @@
+.footer {
+  max-width: 100%;
+  background-image: url(../../../../assets/images/footer-gradient-background.svg);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media  (max-width: 1023px) {
+
+  .footer {
+    background-image: url('../../../../assets/images/Footer768.svg');
+    height: 639px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer {
+    background-image: url('../../../../assets/images/Footer320.svg');
+    height: 809px;
+  }
+}

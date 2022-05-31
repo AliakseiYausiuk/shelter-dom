@@ -1,0 +1,11 @@
+.pets__page {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  background: #F1CDB3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}

@@ -1,0 +1,16 @@
+.header__link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #545454;
+  cursor: pointer;
+}
+
+.header__link_active{
+  border-bottom: 2px solid #F1CDB3;
+}
+
+.header__link:hover {
+  border-bottom: 2px solid #F1CDB3;
+}
