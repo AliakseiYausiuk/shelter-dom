@@ -1,0 +1,21 @@
+.start-screen__title {
+  max-width: 310px;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 130%;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 343px 0 42px 40px;
+  text-align: center;
+}
+
+@media  (max-width: 768px) {
+  .start-screen__title {
+    padding: 150px 0 0 154px;
+  }
+}
+@media (max-width: 320px) {
+  .start-screen__title {
+    padding: 150px 10px 0 10px;
+  }
+}

@@ -1,0 +1,16 @@
+.about__item {
+  max-width: 430px;
+}
+
+@media  (max-width: 768px) {
+  .about__item {
+    order: 1;
+  }
+}
+
+@media (max-width: 320px) {
+  .about__item {
+    order: 1;
+    margin: 42px 10px 25px 10px;
+  }
+}

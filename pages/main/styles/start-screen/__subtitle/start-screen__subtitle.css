@@ -1,0 +1,21 @@
+.start-screen__subtitle {
+  max-width: 460px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #CDCDCD;
+  padding: 0 0 0 40px;
+}
+
+@media  (max-width: 768px) {
+  .start-screen__subtitle {
+    padding: 42px 0 0 154px;
+  }
+}
+
+@media (max-width: 320px) {
+  .start-screen__subtitle {
+    padding: 42px 10px 42px 10px;
+    margin: 0;
+  }
+}

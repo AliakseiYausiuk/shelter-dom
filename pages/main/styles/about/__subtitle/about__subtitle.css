@@ -1,0 +1,12 @@
+.about__subtitle {
+  max-width: 430px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #4C4C4C;
+  margin: 0;
+}
+
+.about__subtitle:last-child {
+  margin-top: 25px;
+}

@@ -1,0 +1,31 @@
+.btn__primary {
+  max-width: 207px;
+  background: #F1CDB3;
+  border-radius: 100px;
+  border: none;
+  padding: 15px 45px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  cursor: pointer;
+  margin: 42px 0 0 40px;
+}
+
+.btn__primary:hover {
+  background: #F6F6F6;
+  border: 2px solid #F1CDB3;
+}
+
+@media  (max-width: 768px) {
+  .btn__primary {
+    margin: 42px 0 0 280px;
+  }
+}
+
+@media (max-width: 320px) {
+  .btn__primary {
+    margin: 0 0 0 56px;
+  }
+}

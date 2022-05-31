@@ -1,0 +1,23 @@
+.donation__item {
+  margin: 80px 0 100px 0;
+}
+
+@media  (max-width: 768px) {
+  .donation__item {
+    order: 1;
+    margin: 80px 0 0 194px;
+  }
+}
+
+@media  (max-width: 560px) {
+  .donation__item {
+    order: 1;
+    margin: 80px 0 0 80px;
+  }
+}
+
+@media (max-width: 320px) {
+  .donation__item {
+    margin: 42px 10px 0 10px;
+  }
+}

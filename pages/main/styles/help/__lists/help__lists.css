@@ -1,0 +1,22 @@
+.help__lists {
+  max-width: 1026px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 100px 0;
+  justify-content: center;
+}
+
+@media  (max-width: 768px) {
+  .help__lists {
+    max-width: 630px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .help__lists {
+    max-width: 320px;
+    display: block;
+    column-count: 2;
+  }
+}

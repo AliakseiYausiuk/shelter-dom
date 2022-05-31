@@ -1,0 +1,18 @@
+.btn__arrow {
+  width: 52px;
+  height: 52px;
+  border-radius: 100px;
+  border: 2px solid #F1CDB3;
+  background: #FAFAFA;
+  cursor: pointer;
+}
+
+.btn__arrow:hover {
+  background: #F1CDB3;
+}
+
+@media (max-width: 320px) {
+  .btn__arrow {
+    display: none;
+  }
+}

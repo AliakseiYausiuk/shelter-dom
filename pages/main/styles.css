@@ -1,0 +1,178 @@
+/* wrapper */
+@import url('../main/styles/wrapper/wrapper.css');
+/* root */
+@import url('../main/styles/root/root.css');
+/* start-screen */
+@import url('../main/styles/start-screen/start-screen.css');
+@import url('../main/styles/start-screen/__title/start-screen__title.css');
+@import url('../main/styles/start-screen/__subtitle/start-screen__subtitle.css');
+/* header */
+@import url('../main/styles/header/header.css');
+@import url('../main/styles/header/__title/header__title.css');
+@import url('../styles/header/__subtitle/header__subtitle.css');
+@import url('../main/styles/header/__nav/header__nav.css');
+@import url('../main/styles/header/__links/header__links.css');
+@import url('../main/styles/header/__link-item/header__link-item.css');
+@import url('../main/styles/header/__link/header__link.css');
+@import url('../main/styles/header/__link/_active/header__link_active.css');
+/* btn */
+@import url('../main/styles/btn/__primary/btn__primary.css');
+@import url('../main/styles/btn/__arrow/btn__arrow.css');
+@import url('../main/styles/btn/__img/btn__img.css');
+@import url('../main/styles/btn/__right/btn__right.css');
+@import url('../main/styles/btn/__light/btn__light.css');
+@import url('../main/styles/btn/__pouring/btn__pouring.css');
+/* about */
+@import url('../main/styles/about/__layout/about__layout.css');
+@import url('../main/styles/about/__img/about__img.css');
+@import url('../main/styles/about/__item/about__item.css');
+@import url('../main/styles/about/__title/about__title.css');
+@import url('../main/styles/about/__subtitle/about__subtitle.css');
+/* pets */
+@import url('../main/styles/pets/pets.css');
+@import url('../main/styles/pets/__layout/pets__layout.css');
+@import url('../main/styles/pets/__title/pets__title.css');
+@import url('../main/styles/pets/__cards/pets__cards.css');
+/* cards */
+@import url('../main/styles/cards/cards.css');
+/* card */
+@import url('../main/styles/card/card.css');
+@import url('../main/styles/card/__title/card__title.css');
+/* help */
+@import url('../main/styles/help/__layout/help__layout.css');
+@import url('../main/styles/help/__title/help__title.css');
+@import url('../main/styles/help/__lists/help__lists.css');
+@import url('../main/styles/help/__list/help__list.css');
+@import url('../main/styles/help/__subtitle/help__subtitle.css');
+/* donation */
+@import url('../main/styles/donation/donation.css');
+@import url('../main/styles/donation/__layout/donation__layout.css');
+@import url('../main/styles/donation/__img/donation__img.css');
+@import url('../main/styles/donation/__item/donation__item.css');
+@import url('../main/styles/donation/__title/donation__title.css');
+@import url('../main/styles/donation/__subtitle/donation__subtitle.css');
+@import url('../main/styles/donation/__btn/donation__btn.css');
+@import url('../main/styles/donation/__text/donation__tex.css');
+/* footer */
+@import url('../main/styles/footer/footer.css');
+@import url('../main/styles/footer/__layout/footer__layout.css');
+@import url('../main/styles/footer/__contacts/footer__contacts.css');
+@import url('../main/styles/footer/__title/footer__title.css');
+@import url('../main/styles/footer/__links/footer__links.css');
+@import url('../main/styles/footer/__item/footer__item.css');
+@import url('../main/styles/footer/__icon/footer__icon.css');
+@import url('../main/styles/footer/__link/footer__link.css');
+@import url('../main/styles/footer/__img/footer__img.css');
+@import url('../main/styles/footer/__locations/footer__locations.css');
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+@media (max-width: 320px) {
+  .start-screen {
+    background-image: url('../../assets/images/Start\ screen320.svg');
+    height: 823px;
+  }
+  .start-screen__title {
+    padding: 150px 10px 0 10px;
+    
+  }
+  .start-screen__subtitle {
+    padding: 42px 10px 42px 10px;
+    margin: 0;
+  }
+  .btn__primary {
+    margin: 0 0 0 56px;
+  }
+  .header {
+    top: 30px;
+    left: 10px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__title {
+    font-size: 35px;
+    text-align: center;
+  }
+  .about__img {
+    order: 2;
+    width: 260px;
+    height: 353px;
+    margin: 42px 10px;
+  }
+  .about__item {
+    order: 1;
+    margin: 42px 10px 25px 10px;
+  }
+  .about__title {
+    margin-top: 0;
+    font-size: 25px;
+    text-align: center;
+  }
+  .pets__title {
+    padding: 42px 10px;
+    font-size: 25px;
+    text-align: center;
+  }
+  .btn__arrow {
+    display: none;
+  }
+  .help__title {
+    max-width: 220px;
+    margin: 42px 50px;
+    font-size: 25px;
+  }
+  .help__lists {
+    max-width: 320px;
+    display: block;
+    column-count: 2;
+  }
+  .help__list {
+    max-width: 130px;
+  }
+  .help__list:last-child {
+    margin: 16px 40px;
+  }
+  .donation__item {
+    margin: 42px 10px 0 10px;
+  }
+  .donation__title {
+    font-size: 25px;
+    text-align: center;
+  }
+  .donation__btn {
+    max-width: 281px;
+    font-size: 15px;
+    line-height: 110%;
+  }
+  .donation__btn-img {
+    margin-right: 15px;
+  }
+  .donation__img {
+    max-width: 260px;
+    margin: 42px 30px;
+  }
+  .footer {
+    background-image: url('../../assets/images/Footer320.svg');
+    height: 809px;
+  }
+  .footer__layout {
+    display: block;
+    padding: 0;
+    padding: 30px 21px 40px 21px;
+  }
+  .footer__title {
+    font-size: 25px;
+    text-align: center;
+  }
+  .footer__contacts {
+    margin: 0;
+  }
+  .footer__link {
+    font-size: 20px;
+  }
+}

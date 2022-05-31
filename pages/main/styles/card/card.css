@@ -1,0 +1,9 @@
+.card {
+  max-width: 270px;
+  background: #FAFAFA;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}

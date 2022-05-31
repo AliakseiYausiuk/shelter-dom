@@ -1,0 +1,19 @@
+.btn__pouring {
+  max-width: 261px;
+  height: 52px;
+  background: #F1CDB3;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  border: 1px solid #F1CDB3;
+  padding: 15px 45px;
+  margin: 60px 0 100px 0;
+  cursor: pointer;
+}
+
+.btn__pouring:hover {
+  background: #FAFAFA;
+}

@@ -1,0 +1,9 @@
+.donation__layout {
+  display: flex;
+}
+
+@media  (max-width: 768px) {
+  .donation__layout {
+    flex-direction: column;
+  }
+}
