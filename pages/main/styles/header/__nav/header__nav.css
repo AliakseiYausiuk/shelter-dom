@@ -3,7 +3,7 @@
   align-items: center;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 470px) {
   .header__nav {
     display: none;
   }

@@ -20,7 +20,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 470px) {
   .donation__btn {
     max-width: 281px;
     font-size: 15px;

@@ -24,7 +24,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 470px) {
   .btn__primary {
     margin: 0 0 0 56px;
   }

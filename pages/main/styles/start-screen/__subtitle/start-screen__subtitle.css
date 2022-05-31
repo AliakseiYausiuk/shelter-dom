@@ -13,7 +13,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 470px) {
   .start-screen__subtitle {
     padding: 42px 10px 42px 10px;
     margin: 0;

@@ -8,7 +8,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 470px) {
   .about__item {
     order: 1;
     margin: 42px 10px 25px 10px;

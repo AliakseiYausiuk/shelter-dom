@@ -1,3 +1,9 @@
 .btn__right {
   transform: rotate(180deg);
 }
+
+@media (max-width: 340px) {
+    .btn__arrow {
+        display: none;
+    }
+}

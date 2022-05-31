@@ -10,7 +10,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 470px) {
   .about__img {
     order: 2;
     width: 260px;
