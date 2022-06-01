@@ -22,6 +22,10 @@
 @import url('../main/styles/btn/__right/btn__right.css');
 @import url('../main/styles/btn/__light/btn__light.css');
 @import url('../main/styles/btn/__pouring/btn__pouring.css');
+/* burger */
+@import url('../main/styles/burger/burger.css');
+@import url('../main/styles/burger/__line/burger__line.css');
+@import url('../main/styles/burger/__item/burger__item.css');
 /* about */
 @import url('../main/styles/about/__layout/about__layout.css');
 @import url('../main/styles/about/__img/about__img.css');
