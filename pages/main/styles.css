@@ -26,6 +26,15 @@
 @import url('../main/styles/burger/burger.css');
 @import url('../main/styles/burger/__line/burger__line.css');
 @import url('../main/styles/burger/__item/burger__item.css');
+@import url('../main/styles/burger/_active/burger_active.css');
+@import url('../main/styles/burger/__item/_rotate/burger__item_rotate.css');
+@import url('../main/styles/burger/__menu/burger__menu.css');
+@import url('./styles/burger/__links/burger__links.css');
+@import url('../main/styles/burger/__nav/burger__nav.css');
+@import url('../main/styles/burger/__link-item/burger__link-item.css');
+@import url('../main/styles/burger/__link/burger__link.css');
+@import url('../main/styles/burger/__link/_active/burger__link_active.css');
+@import url('../main/styles/burger/__menu/_active/burger__menu_active.css');
 /* about */
 @import url('../main/styles/about/__layout/about__layout.css');
 @import url('../main/styles/about/__img/about__img.css');
