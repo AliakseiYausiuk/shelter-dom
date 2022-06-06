@@ -11,6 +11,19 @@
 @import url('../pets/styles/header/__links/header__links.css');
 @import url('../pets/styles/header/__link-item/header__link-item.css');
 @import url('../pets/styles/header/__link/header__link.css');
+/* burger */
+@import url('../pets/styles/burger/__item/burger__item.css');
+@import url('../pets/styles/burger/__item/_rotate/burger__item_rotate.css');
+@import url('../pets/styles/burger/__line/burger__line.css');
+@import url('../pets/styles/burger/__link-item/burger__link-item.css');
+@import url('../pets/styles/burger/__link/_active/burger__link_active.css');
+@import url('../pets/styles/burger/__link/burger__link.css');
+@import url('../pets/styles/burger/__links/burger__links.css');
+@import url('../pets/styles/burger/__menu/_active/burger__menu_active.css');
+@import url('../pets/styles/burger/__menu/burger__menu.css');
+@import url('../pets/styles/burger/__nav/burger__nav.css');
+@import url('../pets/styles/burger/_active/burger_active.css');
+@import url('../pets/styles/burger/burger.css');
 /* pets */
 @import url('../pets/styles/pets/pets.css');
 @import url('../pets/styles/pets/__layout/pets__layout.css');

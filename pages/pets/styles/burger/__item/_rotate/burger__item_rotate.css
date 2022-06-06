@@ -1,0 +1,9 @@
+/* @media  (max-width: 470px) {
+  .burger__item {
+    transform: rotate(90deg); 
+  }
+} */
+
+.burger__item_rotate {
+  transform: rotate(90deg); 
+}

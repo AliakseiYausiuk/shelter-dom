@@ -4,10 +4,3 @@
   overflow: hidden;
 }
 
-@media (max-width: 1000px) {
-  .cards {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px 40px;
-  }
-}

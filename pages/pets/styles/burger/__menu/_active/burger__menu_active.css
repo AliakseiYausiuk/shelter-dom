@@ -1,0 +1,9 @@
+.burger__menu_active {
+  position: absolute;
+  right: 0;
+  width: 320px;
+  height: 100vh;
+  background: rgba(41, 41, 41, 0.6);
+  z-index: 5;
+  display: block;
+}

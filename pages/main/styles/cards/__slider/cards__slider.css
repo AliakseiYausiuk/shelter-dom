@@ -5,3 +5,11 @@
   gap: 0 20px;
   transition: all ease 1s;
 }
+
+@media (max-width: 1000px) {
+  .cards__slider {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 40px;
+  }
+}

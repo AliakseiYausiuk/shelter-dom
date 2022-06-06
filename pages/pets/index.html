@@ -10,12 +10,29 @@
 </head>
 <body>
   <div class="root">
+    <div class="burger__menu">
+      <nav class="burger__nav">
+        <ul class="burger__links">
+          <li class="burger__link-item"><a class="burger__link burger__link_active" href="#home">About the shelter</a></li>
+          <li class="burger__link-item"><a class="burger__link" href="../pets/index.html">Our pets</a></li>
+          <li class="burger__link-item"><a class="burger__link" href="#help">Help the shelter</a></li>
+          <li class="burger__link-item"><a class="burger__link" href="#footer">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
     <header class="header">
         <div class="wrapper wrapper_flex">
         <div class="header__logo">
           <h1 class="header__title" onclick="document.location='../main/index.html'">Cozy House</h1>
           <p class="header__subtitle">Shelter for pets in Boston</p>
         </div>
+        <nav class="burger">
+          <ul class="burger__item">
+            <li class="burger__line"></li>
+            <li class="burger__line"></li>
+            <li class="burger__line"></li>
+          </ul>
+        </nav>
         <nav class="header__nav">
           <ul class="header__links">
             <li class="header__link-item"><a class="header__link" href="../main/index.html">About the shelter</a></li>
@@ -124,6 +141,7 @@
         </div>
       </div>
     </footer>
+    <script type="module" src="script.js"></script>
   </div>
 </body>
 </html>
