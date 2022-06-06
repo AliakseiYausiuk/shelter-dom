@@ -48,6 +48,7 @@
 @import url('../main/styles/pets/__cards/pets__cards.css');
 /* cards */
 @import url('../main/styles/cards/cards.css');
+@import url('../main/styles/cards/__slider/cards__slider.css');
 /* card */
 @import url('../main/styles/card/card.css');
 @import url('../main/styles/card/__title/card__title.css');
