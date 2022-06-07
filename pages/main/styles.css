@@ -35,6 +35,18 @@
 @import url('../main/styles/burger/__link/burger__link.css');
 @import url('../main/styles/burger/__link/_active/burger__link_active.css');
 @import url('../main/styles/burger/__menu/_active/burger__menu_active.css');
+/* pop-up */
+@import url('../main/styles/pop-up/pop-up.css');
+@import url('../main/styles/pop-up/__item/pop-up__item.css');
+@import url('../main/styles/pop-up/_active/pop-up_active.css');
+@import url('../main/styles/pop-up/__btn-close/pop-up__btn-close.css');
+@import url('../main/styles/pop-up/__img/pop-up__img.css');
+@import url('../main/styles/pop-up/__info/pop-up__info.css');
+@import url('../main/styles/pop-up/__list/pop-up__list.css');
+@import url('../main/styles/pop-up/__lists/pop-up__lists.css');
+@import url('../main/styles/pop-up/__subtitle/pop-up__subtitle.css');
+@import url('../main/styles/pop-up/__text/pop-up__text.css');
+@import url('../main/styles/pop-up/__title/pop-up__title.css');
 /* about */
 @import url('../main/styles/about/__layout/about__layout.css');
 @import url('../main/styles/about/__img/about__img.css');

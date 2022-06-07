@@ -1,0 +1,21 @@
+.pop-up__img {
+  width: 500px;
+  height: 500px;
+  background-image: url('../../../../../assets/images/pets-woody.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 1000px) {
+  .pop-up__img {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 800px) {
+  .pop-up__img {
+    display: none;
+  }
+}

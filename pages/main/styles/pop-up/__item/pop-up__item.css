@@ -1,0 +1,23 @@
+.pop-up__item {
+  width: 900px;
+  height: 500px;
+  background: #FAFAFA;
+  border-radius: 9px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 1000px) {
+  .pop-up__item {
+    width: 682px;
+  }
+}
+
+@media (max-width: 800px) {
+  .pop-up__item {
+    width: 240px;
+    height: 341px;
+    grid-template-columns: 1fr;
+  }
+}

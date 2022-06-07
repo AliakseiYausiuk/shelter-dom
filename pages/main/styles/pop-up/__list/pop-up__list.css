@@ -1,0 +1,23 @@
+.pop-up__list {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  margin-bottom: 10px;
+}
+
+.pop-up__list::before {
+  color: #F1CDB3;
+  content: "▪";
+  padding-right: 10px;
+}
+
+.pop-up__list:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+  .pop-up__list {
+    margin-bottom: 5px;
+  }
+}
