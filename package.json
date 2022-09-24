@@ -1,5 +1,11 @@
 {
+  "homepage": "https://AliakseiYausiuk.github.io/shelter-dom",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "normalize.css": "^8.0.1"
   }
 }
